@@ -1,0 +1,8 @@
+query getLanguageDetails($code:ID!){
+    language(code: $code) {
+        name
+        native
+        code
+        rtl
+    }
+}
